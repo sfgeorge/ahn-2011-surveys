@@ -5,3 +5,5 @@ gem 'showoff', '~> 0.7.0'
   gem 'rack', '1.3.3'
   gem 'rmagick', '~> 2.13.1'
   gem 'sinatra', '1.3.0'
+
+gem 'heroku', '~> 2.8.6'
