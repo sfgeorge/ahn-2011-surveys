@@ -1,0 +1,16 @@
+{
+  "name": "AdhearsionConf 2011: Developing Survey Phone Apps - Stephen George",
+  "sections": [
+    {"section":"introduction"},
+    {"section":"shout-outs"},
+    {"section":"about-me"},
+    {"section":"getting-started"},
+    {"section":"user-experience"},
+    {"section":"adhearsion-new-features"},
+    {"section":"input"},
+    {"section":"output"},
+    {"section":"monitoring"},
+    {"section":"logging"},
+    {"section":"thank-you"}
+  ]
+}
