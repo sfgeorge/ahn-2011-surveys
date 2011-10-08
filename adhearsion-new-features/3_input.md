@@ -1,12 +1,14 @@
 !SLIDE bullets incremental
 
-# :speak and \#input #
+# \#input with :speak #
 
 * Ask a question
-* Allow the user to interrupt and answer
-
+* Allow the user to interrupt
+* Interruption is taken as beginning of their answer
 
 !SLIDE small
+
+# \#input with :speak #
 
     @@@ ruby
     question = 'How many miles are on your car?'
@@ -21,11 +23,14 @@
 # \#input now accepts blocks #
 
 * New way of signaling that input is satisfied
-* Or immediately validating input
+* Or determining that it's *unsatisfiable*
+* Interactively validate input with each key-press
 
 !SLIDE bullets incremental
 
-# How it works #
+# \#input with blocks #
+
+## How it works ##
 
 * Your block evaluated after every key-press
 * Return `true` inside your block to stop

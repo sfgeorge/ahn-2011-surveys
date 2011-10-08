@@ -68,9 +68,25 @@ github.com/benlangfeld/ruby_speech
 * Create rich SSML w/o touching markup!
 * Because DSL &gt; markup
 
+
 !SLIDE smaller
 
-# So instead of this... #
+# ruby_speech ssml example #
+
+    @@@ ruby
+    speak RubySpeech::SSML.draw do
+      voice gender: :male do
+        string 'Your bill is due on'
+        say_as interpret_as: 'date', format: 'mdy' do
+          '10/15/2011'
+        end
+      end
+    end
+
+
+!SLIDE smaller
+
+# The alternative with markup #
 
     @@@ ruby
     statement = '<?xml version="1.0"?>
@@ -87,19 +103,5 @@ github.com/benlangfeld/ruby_speech
       </speak>'
 
     speak statement
-
-!SLIDE smaller
-
-# ...You can do this: #
-
-    @@@ ruby
-    speak RubySpeech::SSML.draw do
-      voice gender: :male do
-        string 'Your bill is due on'
-        say_as interpret_as: 'date', format: 'mdy' do
-          '10/15/2011'
-        end
-      end
-    end
 
 
