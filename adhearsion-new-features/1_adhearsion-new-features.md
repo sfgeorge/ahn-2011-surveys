@@ -11,5 +11,5 @@
 # New Features in Adhearsion
 
 * Improving how we interact with users
-* Sponsored by <img src="../IfbyphoneLogo-small.jpg" alt="Ifbyphone" style="vertical-align: middle" />
+* Features sponsored by <img src="../IfbyphoneLogo-small.jpg" alt="Ifbyphone" style="vertical-align: middle" />
 * We thought they were too cool not to share
