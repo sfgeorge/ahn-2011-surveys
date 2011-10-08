@@ -14,4 +14,6 @@ By Stephen George
 
 ## Follow along at home! ##
 
+<br />
+
 Presentation available at **ahn-2011-surveys.heroku.com**
